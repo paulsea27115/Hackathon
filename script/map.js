@@ -21,7 +21,7 @@ function panTo(latitude, longitude) {
     map.panTo(moveLatLon); 
     
     var markerPosition  = new kakao.maps.LatLng(latitude, longitude); 
-
+    var iwContent = '<div style="padding:5px;">Hello World!</div>';
     // 마커를 생성합니다
     var marker = new kakao.maps.Marker({
         position: markerPosition
