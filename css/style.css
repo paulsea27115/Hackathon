@@ -618,7 +618,7 @@ img {
     border: 1px solid #52b788;
 }
 .sub1 .input_content{
-    margin: 10px;
+    margin: 0 10px;
     flex-direction: row;
     align-items: center;
     justify-content: end;
@@ -636,6 +636,20 @@ img {
     padding: 3px 10px;
     font-size: 15px;
 }
+.sub1 .result_list{
+    /* float: right; */
+    border: 1px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.sub1 .extra{
+    /* z-index: 9999; */
+    
+}
+
+
+
+
 
 /* sub2(license) */
 .sub2 .container{
