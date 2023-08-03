@@ -67,6 +67,8 @@ img {
     -o-user-drag: none;
 }
 
+
+
 .index .drop {
     position: fixed;
     animation: dropHeader 0.4s;
