@@ -24,7 +24,8 @@ const start = async ()=>{
 
         var markerPosition = new kakao.maps.LatLng(latitude, longitude); 
         var marker = new kakao.maps.Marker({
-            position: markerPosition
+            position: markerPosition,
+            clickable: true
         });
 
         marker.setMap(map);

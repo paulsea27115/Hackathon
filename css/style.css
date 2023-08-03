@@ -645,11 +645,13 @@ img {
 .sub1 .result_list{
     z-index: 9999;
     transition: 0.5s;
-
+    top: 42.5px;
+    right: 5px;
+    width: 18rem;
     /* border: 1px solid black; */
-    background-color: #d4ffe7;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    background-color: #f5fffa;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     opacity: 1;
 }
 .sub1 .off_ul {
