@@ -891,9 +891,9 @@ img {
     flex-direction: column;
     align-items: center;
 }
-/* .sub3 section{
+.sub3 section:nth-child(n+1){
     margin-bottom: 200px;
-} */
+}
 .sub3 .wrap{
     display: flex;
 }
