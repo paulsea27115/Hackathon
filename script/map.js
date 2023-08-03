@@ -82,3 +82,13 @@ const start = async ()=>{
     }
 }
 start()
+const search_ul = document.querySelector("ul.result_list");
+const search_input = document.querySelector(".search_input");
+search_input.addEventListener("focus",(e)=>{
+    search_ul.classList.remove("off_ul");
+    console.log(search_ul)
+})
+search_input.addEventListener("blur",(e)=>{
+    search_ul.classList.add("off_ul");
+    console.log(search_ul)
+})
