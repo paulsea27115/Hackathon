@@ -890,9 +890,10 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
-.sub3 section:nth-child(n+1){
-    margin-bottom: 200px;
+.sub3 section:nth-child(n+2){
+    margin-bottom: 100px;
 }
 .sub3 .wrap{
     display: flex;
