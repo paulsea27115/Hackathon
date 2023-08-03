@@ -615,6 +615,7 @@ img {
     width: 1350px;
     height: 700px;
     margin-bottom: 14px;
+    border: 1px solid #52b788;
 }
 .sub1 .input_content{
     margin: 10px;
