@@ -14,6 +14,9 @@ const start = async ()=>{
 
 
     function panTo(latitude, longitude, name) {
+        const show = ()=>{
+            infowindow.open(map, marker);
+        }
         // 이동할 위도 경도 위치를 생성합니다 
         map.setLevel(3);
         var moveLatLon = new kakao.maps.LatLng(latitude, longitude);
@@ -21,7 +24,7 @@ const start = async ()=>{
         // 지도 중심을 부드럽게 이동시킵니다
         // 만약 이동할 거리가 지도 화면보다 크면 부드러운 효과 없이 이동합니다
         map.panTo(moveLatLon);
-
+        
         var markerPosition = new kakao.maps.LatLng(latitude, longitude); 
         var marker = new kakao.maps.Marker({
             position: markerPosition,
@@ -34,10 +37,11 @@ const start = async ()=>{
         // 마커를 생성합니다
         var infowindow = new kakao.maps.InfoWindow({
             position : iwPosition,
-            content : iwContent
+            content : iwContent,
+            removable : true
         });
-
-        infowindow.open(map, marker);
+        show()
+        kakao.maps.event.addListener(marker, 'click', show);
     }
     const search_input = document.querySelector(".search_input")
     const search_button = document.querySelector(".search_button")

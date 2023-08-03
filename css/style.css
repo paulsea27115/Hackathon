@@ -657,6 +657,7 @@ img {
 .sub1 .off_ul {
     /* display: none; */
     opacity: 0;
+    /* transition: 0.5s; */
 }
 .sub1 .extra{
     /* z-index: 9999; */
