@@ -885,6 +885,7 @@ img {
     font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
+    margin-top: 20px;
 }
 .sub3 .content{
     display: flex;
