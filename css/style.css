@@ -738,6 +738,7 @@ img {
     font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 75px;
 }
 .sub2 .content{
     margin-top: 90px;
@@ -751,7 +752,6 @@ img {
     width: 100%;
 }
 .sub2 .license{
-    display: flex;
     flex-direction: column;
     margin: 0 200px;
     margin-top: 20px;
@@ -764,6 +764,7 @@ img {
 .sub2 .license a{
     width: 320px;
     color: black;
+    padding: 5px;
 }
 .sub2 .license a>img{
     width: 100%;
